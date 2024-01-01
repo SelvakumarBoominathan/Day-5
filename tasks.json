@@ -1,0 +1,18 @@
+// .vscode/tasks.json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ts-node: run",
+      "type": "shell",
+      "command": "ts-node",
+      "args": [
+        "${relativeFile}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
